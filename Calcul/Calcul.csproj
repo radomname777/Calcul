@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Capture3.PNG" />
+    <None Remove="Hamburger_icon.svg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Capture3.PNG" />
+    <Resource Include="Hamburger_icon.svg.png" />
+  </ItemGroup>
+
+</Project>
